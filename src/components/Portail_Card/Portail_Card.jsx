@@ -22,24 +22,28 @@ export default function Portail_Card() {
             <span>London</span>
           </div>
         </div>
+
+        <div className={style.lign}></div>
         <div className={style.card__body__stat}>
-          <div className={style.card__body__counter}>
-            <span>
-              <strong>80K</strong>
-            </span>
-            <span className={style.card__body__counter__label}>Follower</span>
-          </div>
-          <div className={style.card__body__counter}>
-            <span>
-              <strong>80K</strong>
-            </span>
-            <span className={style.card__body__counter__label}>Likes</span>
-          </div>
-          <div className={style.card__body__counter}>
-            <span>
-              <strong>80K</strong>
-            </span>
-            <span className={style.card__body__counter__label}>Photos</span>
+          <div className={style.container_counter}>
+            <div className={style.card__body__counter}>
+              <span>
+                <strong>80K</strong>
+              </span>
+              <span className={style.card__body__counter__label}>Follower</span>
+            </div>
+            <div className={style.card__body__counter}>
+              <span>
+                <strong>80K</strong>
+              </span>
+              <span className={style.card__body__counter__label}>Likes</span>
+            </div>
+            <div className={style.card__body__counter}>
+              <span>
+                <strong>80K</strong>
+              </span>
+              <span className={style.card__body__counter__label}>Photos</span>
+            </div>
           </div>
         </div>
       </div>
